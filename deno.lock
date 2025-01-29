@@ -9,6 +9,7 @@
     "npm:@tailwindcss/vite@4": "4.0.0_vite@6.0.11_lightningcss@1.29.1",
     "npm:drizzle-kit@~0.30.2": "0.30.4_esbuild@0.19.12",
     "npm:drizzle-orm@~0.38.4": "0.38.4_@libsql+client@0.14.0",
+    "npm:lucide-svelte@0.474": "0.474.0_svelte@5.19.5__acorn@8.14.0",
     "npm:prettier-plugin-svelte@^3.3.3": "3.3.3_prettier@3.4.2_svelte@5.19.5__acorn@8.14.0",
     "npm:prettier-plugin-tailwindcss@~0.6.10": "0.6.11_prettier@3.4.2_prettier-plugin-svelte@3.3.3__prettier@3.4.2__svelte@5.19.5___acorn@8.14.0_svelte@5.19.5__acorn@8.14.0",
     "npm:prettier@^3.4.2": "3.4.2",
@@ -819,6 +820,12 @@
     "locate-character@3.0.0": {
       "integrity": "sha512-SW13ws7BjaeJ6p7Q6CO2nchbYEc3X3J6WrmTTDto7yMPqVSZTUyY5Tjbid+Ab8gLnATtygYtiDIJGQRRn2ZOiA=="
     },
+    "lucide-svelte@0.474.0_svelte@5.19.5__acorn@8.14.0": {
+      "integrity": "sha512-yOSqjXPoEDOXCceBIfDaed6RinOvhp03ShiTXH6O+vlXE/NsyjQpktL8gm2vGDxi9d81HMuPFN1dwhVURh6mGg==",
+      "dependencies": [
+        "svelte"
+      ]
+    },
     "magic-string@0.30.17": {
       "integrity": "sha512-sNPKHvyjVf7gyjwS4xGTaW/mCnF8wnjtifKBEhxfZ7E/S8tQ0rssrwGNn6q8JH/ohItJfSQp9mBtQYuTlH5QnA==",
       "dependencies": [
@@ -1036,6 +1043,7 @@
         "npm:@tailwindcss/vite@4",
         "npm:drizzle-kit@~0.30.2",
         "npm:drizzle-orm@~0.38.4",
+        "npm:lucide-svelte@0.474",
         "npm:prettier-plugin-svelte@^3.3.3",
         "npm:prettier-plugin-tailwindcss@~0.6.10",
         "npm:prettier@^3.4.2",
