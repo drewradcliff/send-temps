@@ -1,5 +1,6 @@
 <script lang="ts">
 	import { Sun, Wind } from 'lucide-svelte';
+	import DialogForm from '../components/dialog-form.svelte';
 
 	let destinations = [
 		{
@@ -26,9 +27,7 @@
 <h1 class="text-3xl font-semibold">Destinations</h1>
 <h2 class="font-light text-zinc-600">Create and manage destinations</h2>
 <div class="flex justify-end">
-	<button class="rounded-lg bg-zinc-950 px-4 py-2 text-white hover:cursor-pointer hover:bg-zinc-800"
-		>Add Destination</button
-	>
+	<DialogForm />
 </div>
 
 <div class="py-4"></div>
